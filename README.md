@@ -41,6 +41,7 @@ Tried on another device??? Let me know ;)
 
 ## History
 
+- 0.0.5 - March 2017 : Getting npm submission correct
 - 0.0.4 - March 2017 : Preparing for npm submission
 - 0.0.3 - March 2017 : Grammar & typo corrections
 - 0.0.2 - March 2017 : Typos
