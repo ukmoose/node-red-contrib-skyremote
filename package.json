@@ -17,6 +17,7 @@
     "sky-remote": "^1.1.x"
   },
   "keywords": [
+    "node-red",
     "Sky",
     "Remote",
     "SkyTV",

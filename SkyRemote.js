@@ -53,10 +53,6 @@ module.exports = function(RED) {
                 var _mode = msg.payload;
                 node.status({ fill: "blue", shape: "dot", text: "Command:" + _mode });
 
-                
-                console.log ( JSON.parse(_mode));
-
-
 
                 //if a string and [ XXXX ] - to allow for use direct with a/z in inject node
                 if (typeof _mode === 'string' && _mode.startsWith('[') && _mode.endsWith(']')) {
@@ -75,13 +71,13 @@ module.exports = function(RED) {
 
                 //check to see if all of arrays contents are commands 
                 if (Array.isArray(_mode)) {
-                    console.log("its an array");
+                    //console.log("its an array");
                     _mode = _mode.map(String)
                     var isarraySubsetOfCommands = _mode.every(function(val) {
                         return arrayOfCommands.indexOf(val) >= 0; });
-                    console.log(isarraySubsetOfCommands); // true
+                    //console.log(isarraySubsetOfCommands); // true
                 }
-                console.log(_mode);
+                //console.log(_mode);
 
                 if (isarraySubsetOfCommands === true) {
                     var command = _mode;

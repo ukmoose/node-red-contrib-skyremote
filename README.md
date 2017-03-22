@@ -41,10 +41,10 @@ Tried on another device??? Let me know ;)
 
 ## History
 
-- 0.0.5 - March 2017 : Getting npm submission correct
+- 0.0.8 - March 2017 : Adding node-red keyword removing console.log outputs
+- 0.0.7 - March 2017 : Getting npm submission correct
 - 0.0.4 - March 2017 : Preparing for npm submission
 - 0.0.3 - March 2017 : Grammar & typo corrections
-- 0.0.2 - March 2017 : Typos
 - 0.0.1 - March 2017 : Initial Release
 
 ## Authors
