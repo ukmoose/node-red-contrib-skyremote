@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('Sky Box', {
+        category: 'config',
+        defaults: {
+            host: {value: "127.0.0.1", required: true},
+            port: {value: 49160, required: true, validate: RED.validators.number()},
+        },
+        label: function () {
+            return this.host + ":" + this.port;
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="Sky Box">
+    <div class="form-row">
+        <label for="node-config-input-host"><i class="icon-bookmark"></i> IP address</label>
+        <input type="text" id="node-config-input-host">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-port"><i class="fa fa-empire"></i> Box Type</span></label>
+        <select id="node-config-input-port" style="width:125px !important">
+            <option value="49160">Sky+HD</option>
+            <option value="5900">Sky Q</option>
+        </select>
+    </div>
+</script>
