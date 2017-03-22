@@ -25,6 +25,11 @@
     "SkyHD",
     "SkyQ"
   ],
+  "node-red": {
+    "nodes": {
+      "SkyRemote": "SkyRemote.js"
+    }
+  },
   "author": "Mark Setrem",
   "license": "MIT",
   "bugs": {
