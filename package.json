@@ -1,35 +1,34 @@
 {
   "name": "node-red-contrib-skyremote",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This node-red node allows you to remotely control a Sky satellite box. The node mimics the Sky Box functionality of the Sky Remote Control",
-  "dependencies": {
-
+  "main": "SkyRemote.js",
+  "engines": {
+    "node": ">=0.10.0"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-      "type": "git",
-      "url": "git://github.com/ukmoose/node-red-contrib-skyremote.git"
+    "type": "git",
+    "url": "git+https://github.com/ukmoose/node-red-contrib-skyremote.git"
+  },
+  "dependencies": {
+    "sky-remote": "^1.1.x"
   },
   "keywords": [
-              "Sky",
-              "Remote",
-              "SkyTV",
-              "SkyPlusHD",
-              "SkyPlus",
-              "SkyHD",
-              "SkyQ"
+    "Sky",
+    "Remote",
+    "SkyTV",
+    "SkyPlusHD",
+    "SkyPlus",
+    "SkyHD",
+    "SkyQ"
   ],
-  "node-red"     : {
-      "nodes": {
-          "node-red-hostip": "hostip/hostip.js"
-      }
-  },
-  "author": {
-	    "name": "Frederic Chanson"
-	},
+  "author": "Mark Setrem",
   "license": "MIT",
   "bugs": {
-	    "url": "git://github.com/ukmoose/node-red-contrib-skyremote/issues"
-	},
-  "homepage": "https://github.com/ukmoose/node-red-contrib-skyremote",
-  "readmeFilename": "README.md"
+    "url": "https://github.com/ukmoose/node-red-contrib-skyremote/issues"
+  },
+  "homepage": "https://github.com/ukmoose/node-red-contrib-skyremote#readme"
 }

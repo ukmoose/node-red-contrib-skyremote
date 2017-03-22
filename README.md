@@ -7,7 +7,7 @@ A [Node-RED](http://nodered.org) node to control a Sky satellite box. The node m
 Use the Manage Palette > Install option from the menu inside node-red
 
 #### Harder
-Use npm to command to install this package locally in the Node-RED modules directory
+Alternatively in your Node-RED user directory, typically ~/.node-red, run
 ```bash
 npm install node-red-contrib-skyremote
 ```
@@ -18,6 +18,7 @@ A node to control a Sky satellite box. The node mimics the Sky Box functionality
 Works with Sky+HD and SkyQ. 
 
 The node can accept the commands listed below: 
+
 ```power``` ```sky```
 ```tvguide``` or ```home``` ```boxoffice``` ```services``` or ```search``` ```interactive``` or ```sidebar```
 ```up``` ```down``` ```left``` ```right``` ```select```
@@ -40,7 +41,7 @@ Tried on another device??? Let me know ;)
 
 ## History
 
-
+- 0.0.4 - March 2017 : Preparing for npm submission
 - 0.0.3 - March 2017 : Grammar & typo corrections
 - 0.0.2 - March 2017 : Typos
 - 0.0.1 - March 2017 : Initial Release
