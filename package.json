@@ -1,11 +1,11 @@
 {
   "name": "node-red-contrib-skyremote",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This node-red node allows you to remotely control a Sky satellite box. The node mimics the Sky Box functionality of the Sky Remote Control",
   "main": "SkyRemote.js",
   "engines": {
     "node": ">=0.10.0"
-    },
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
