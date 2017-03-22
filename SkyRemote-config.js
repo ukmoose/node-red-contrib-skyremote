@@ -32,5 +32,5 @@ module.exports = function (RED) {
         
     }
 
-    RED.nodes.registerType("Sky Box", SkyServerNode);
+    RED.nodes.registerType("Sky Box Config", SkyServerNode);
 }

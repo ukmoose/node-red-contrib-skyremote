@@ -27,7 +27,8 @@
   ],
   "node-red": {
     "nodes": {
-      "SkyRemote": "SkyRemote.js"
+      "SkyRemote": "SkyRemote.js",
+      "SkyBoxConfig":"SkyRemote-config.js"
     }
   },
   "author": "Mark Setrem",
