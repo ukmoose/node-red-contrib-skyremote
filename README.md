@@ -1,22 +1,23 @@
 # node-red-contrib-skyremote
-A [Node-RED](http://nodered.org) node to remotely control a Sky satellite box. The node mimics the functionality of a Sky Remote
+A [Node-RED](http://nodered.org) node to control a Sky satellite box. The node mimics the functionality of a Sky Remote
 
 ## Install
 
-Easiest
+#### Easiest
 Use the Manage Palette > Install option from the menu inside node-red
 
-Harder
+#### Harder
 Use npm to command to install this package locally in the Node-RED modules directory
 ```bash
 npm install node-red-contrib-skyremote
 ```
 
 ## Usage
-A node to remotely control a Sky satellite box. The node mimics the Sky Box functionality of the Sky Remote. Primarily it was written to allow other nodes such as homekit, alexa and dashboard to control the status of the Sky Box
+A node to control a Sky satellite box. The node mimics the Sky Box functionality of the Sky Remote.  The purpose of writing the node was to allow other nodes such as homekit, alexa and dashboard to control the status of the Sky Box
 
 Works with Sky+HD and SkyQ. 
-     The node can accept the commands listed below: 
+
+The node can accept the commands listed below: 
 ```power``` ```sky```
 ```tvguide``` or ```home``` ```boxoffice``` ```services``` or ```search``` ```interactive``` or ```sidebar```
 ```up``` ```down``` ```left``` ```right``` ```select```
@@ -26,22 +27,21 @@ Works with Sky+HD and SkyQ.
 ```red``` ```green``` ```yellow``` ```blue```
 ```1``` ```2``` ```3``` ```4``` ```5``` ```6``` ```7``` ```8``` ```9``` ```0```
 
- A command can be sent as a string in msg.payload (```msg.payload="play"```) 
- A chain of commands can be sent as an array of strings in msg.payload (```msg.payload = ["1","0","6","select"]``` for example to change to channel 106)
+ A command can be sent as a string in msg.payload (```msg.payload="play"```).  A chain of commands can be sent as an array of strings in msg.payload (```msg.payload = ["1","0","6","select"]``` for example to change to channel 106)
 
- The node cannot change volume as that is done from the handest direct to the TV and not via the Sky Box
+ The node cannot change the TV volume as that is done from the sky remote handest direct to the TV and not via the Sky Box
 
 
 ## Tested devices
 
-Tested with a UK Sky+HD box, the underlying npm library supports the SkyQ box but I haven't got one to test.
+Tested with a UK Sky+HD box, the underlying npm library supports SkyQ but I haven't got one to test.
 
 Tried on another device??? Let me know ;)
 
 ## History
 
 
-- 0.0.3 - March 2017 : Initial Release
+- 0.0.3 - March 2017 : Grammar & typo corrections
 - 0.0.2 - March 2017 : Typos
 - 0.0.1 - March 2017 : Initial Release
 
